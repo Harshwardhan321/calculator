@@ -1,11 +1,11 @@
 body {
     font-family: "Gill Sans Extrabold", sans-serif;
-    background-color: #f4f4f4;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background: linear-gradient(to right, #d34b1d, #bff802);
   }
 
   .calculator-container {
@@ -67,3 +67,7 @@ body {
   #btn-backspace:hover {
     background-color: #757272;
   }
+
+h1{
+  text-align: center;
+}
